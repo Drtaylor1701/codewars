@@ -11,6 +11,7 @@ def number(bus_stops):
             else:
                 people = people - number
             print(people)
-            
+    print(people)
+
 bus_stops = [[10,0],[3,5],[5,8]]
 number(bus_stops)
