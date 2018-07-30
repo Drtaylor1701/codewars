@@ -22,11 +22,8 @@ Note: all the hashes are pre-validated and will only contain A-Z, a-z, '-' and '
 def namelist(names):
     index = 0
     output = ""
-    for name in names:
-        if index = len - 1:
-            output.append("& " + name)
-        else:
-            output.append(name + ", ")
-        print(output)
-        index += 1
-    return output
+    length = len(names)
+    print(names)
+    allNames = names.values()
+
+namelist([ {'name': 'Bart'}, {'name': 'Lisa'}, {'name': 'Maggie'} ])
